@@ -1,0 +1,5 @@
+PARA FUNCIONAR, PRECISAR OS COMANDOS ABAIXO NO TERMINAL DO VSCODE
+
+pip install pymongo
+
+pip install requests

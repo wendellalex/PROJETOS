@@ -1,0 +1,106 @@
+1.A Persistência de Dados se refere à capacidade de armazenar informações de forma permanente, de modo que os dados possam ser recuperados e utilizados mesmo após o encerramento de um programa ou sistema. Isso envolve a gravação e recuperação de informações em meios de armazenamento como bancos de dados, arquivos, sistemas de arquivos distribuídos, entre outros.
+
+2.Objetos transientes são objetos que existem apenas na memória de um programa e não têm representação permanente fora dela. Eles não são armazenados em um banco de dados ou em disco. Já objetos persistentes são objetos que têm uma representação permanente em um meio de armazenamento, como um banco de dados. Eles podem ser recuperados e modificados em diferentes execuções do programa.
+
+3.A principal diferença entre um Banco de Dados Relacional e um Banco de Dados Orientado a Objetos está na forma como os dados são modelados e armazenados. Em um banco de dados relacional, os dados são organizados em tabelas com linhas e colunas, e as relações entre eles são estabelecidas por chaves estrangeiras. Em um banco de dados orientado a objetos, os dados são representados como objetos do mundo real, com atributos e métodos, e as relações são tratadas de forma mais natural, refletindo a estrutura do objeto.
+
+4.O objetivo do mapeamento objeto-relacional (ORM) é facilitar a interação entre objetos em um programa orientado a objetos e um banco de dados relacional. Ele permite que os desenvolvedores manipulem dados do banco de dados usando objetos em vez de escrever consultas SQL diretamente, tornando o desenvolvimento mais eficiente e menos propenso a erros.
+
+5.a) Dados estruturados são dados organizados em um formato fixo e predefinido, geralmente em tabelas ou registros, com esquemas bem definidos.
+
+b) Dados semiestruturados são dados que não se encaixam perfeitamente em um formato estruturado, mas têm alguma estrutura, como documentos XML ou JSON.
+
+c) Dados não estruturados são dados que não têm uma estrutura definida, como texto livre, áudio, vídeo, etc.
+
+6.A biblioteca responsável pela extração/captura de dados disponíveis em arquivos HTML ou XML é chamada de "Web Scraping" ou "Web Crawling". Ela permite que os desenvolvedores extraiam informações de páginas da web, incluindo HTML e XML, para análise ou armazenamento em outros formatos
+
+7.a) Sintaxe inicial na primeira linha do arquivo.xml: <?xml version="1.0" encoding="UTF-8"?>
+
+b) Os dados são organizados em formato hierárquico.
+
+c) As formas de representação de um documento XML incluem:
+Elementos: Representam os dados e são organizados em uma hierarquia.
+Atributos: Fornecem informações adicionais sobre elementos.
+Texto: Contém os valores dos elementos.
+Comentários: Permitem adicionar notas explicativas ao documento.
+
+8.
+<produtos>
+  <produto>
+    <nome>Camiseta</nome>
+    <caracteristicas>
+      <cor>Verde</cor>
+      <tamanho>M</tamanho>
+      <preco>19.99</preco>
+      <estoque>100</estoque>
+      <categoria>Roupas</categoria>
+    </caracteristicas>
+  </produto>
+  <produto>
+    <nome>Smartphone</nome>
+    <caracteristicas>
+      <cor>Preto</cor>
+      <marca>Samsung</marca>
+      <preco>699.99</preco>
+      <estoque>50</estoque>
+      <categoria>Tecnologia</categoria>
+    </caracteristicas>
+  </produto>
+</produtos>
+
+
+9.Um documento JSON (JavaScript Object Notation) é uma forma de representar dados em um formato de texto leve e fácil de ler. Suas principais características incluem:
+Estrutura de dados baseada em pares de chave-valor.
+Suporte a tipos de dados como strings, números, objetos, arrays, booleanos e nulos.
+Formato legível por humanos e fácil de gerar e analisar em várias linguagens de programação.
+Ampla adoção na web para troca de dados entre aplicativos.
+
+10.O processo de serialização (JSON.stringify) converte um objeto JavaScript em uma string JSON, enquanto a desserialização (JSON.parse) converte uma string JSON de volta em um objeto JavaScript.
+
+11.
+{
+  "empresa": "Minha Loja Online",
+  "produtos": [
+    {
+      "nome": "Camiseta",
+      "preco": 19.99,
+      "estoque": 100
+    },
+    {
+      "nome": "Smartphone",
+      "preco": 699.99,
+      "estoque": 50
+    }
+  ],
+  "clientes": [
+    {
+      "nome": "João",
+      "idade": 30,
+      "pedidos": [1, 2]
+    },
+    {
+      "nome": "Maria",
+      "idade": 25,
+      "pedidos": [3]
+    }
+  ]
+}
+
+12.Principais diferenças entre JSON e XML:
+JSON é mais leve e mais fácil de ler e escrever para humanos.
+JSON é mais eficiente em termos de tamanho de arquivo.
+JSON é nativamente suportado por muitas linguagens de programação.
+XML é mais flexível em termos de estrutura de dados e metadados.
+XML permite definir esquemas de validação mais complexos.
+
+13.O JDBC (Java Database Connectivity) é uma API do Java que permite a conexão e interação com sistemas de gerenciamento de bancos de dados relacionais. Ele é usado para executar consultas SQL, atualizar dados e recuperar informações de bancos de dados usando Java.
+
+14.Os principais componentes durante a implementação do JDBC são:
+DriverManager: Gerencia uma lista de drivers de banco de dados.
+Connection: Estabelece uma conexão com o banco de dados.
+Statement: Permite a execução de instruções SQL.
+ResultSet: Armazena os resultados de uma consulta SQL.
+Driver: Implementa a interface para conexão com um banco de dados específico.
+
+15.Algumas restrições sobre a utilização do JDBC para sistemas atuais incluem:
+A necessidade de lidar com conexões de banco de dados de forma cuidadosa, gerenciando recursos adequadamente para evitar
